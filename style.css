@@ -66,6 +66,12 @@ footer > a {
   margin-right: 4rem;
 }
 
-main > img {
-  margin-left: 56rem;
+main > div {
+  display: flex;
+  justify-content: space-between;
+  margin-right: 1rem;
+}
+
+h2 {
+  margin: 0.8rem;
 }
