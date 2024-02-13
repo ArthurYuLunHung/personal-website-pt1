@@ -7,6 +7,7 @@
     <script defer src="script.js"></script>
     <link rel="stylesheet" href="reset.css" />
     <link rel="stylesheet" href="style.css" />
+    <script src="javascript.js"></script>
   </head>
 
   <body>
@@ -23,18 +24,32 @@
     <div>
       <aside></aside>
       <main>
-        <div>
-          <h2 style="font-size: 2rem">
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Minus
-            corporis quas esse nemo modi quae doloribus, laudantium placeat,
-            similique, hic natus? Ab mollitia quia obcaecati atque. Laborum
-            accusantium dolor rerum?
-          </h2>
-          <img src="headshot.jpg" alt="headshot" width="300px" />
-        </div>
-        <p style="margin: 2rem; font-size: 5rem; justify-content: center">
-          Nothing ventured, nothing gained.
-        </p>
+        <section>
+          <h2>Contact Me:</h2>
+
+          <form action="/success.html">
+            <div>
+              <label for="name">Name:</label>
+              <input type="text" name="name" id="name" />
+            </div>
+
+            <div>
+              <label for="email">Email:</label>
+              <input type="email" name="email" id="email" />
+            </div>
+
+            <div>
+              <label for="message">Message:</label> <br />
+              <textarea
+                id="message"
+                name="message"
+                rows="6"
+                cols="50"
+              ></textarea>
+            </div>
+            <button type="submit" id="submit">Submit</button>
+          </form>
+        </section>
       </main>
       <aside></aside>
     </div>

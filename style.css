@@ -75,3 +75,16 @@ main > div {
 h2 {
   margin: 0.8rem;
 }
+
+.container {
+  display: flex;
+  width: 100%;
+  height: 20vh;
+  flex-direction: column;
+  background-color: #e5e5e5;
+}
+
+.nav :hover {
+  color: aliceblue;
+  background-color: #fec601;
+}
